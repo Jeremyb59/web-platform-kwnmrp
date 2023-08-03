@@ -5,7 +5,7 @@ export class Popin {
 
     for(const element of listePopin) {
       element.addEventListener('click', function() {
-        console.log('click on button....' + this.value);
+        console.log('click on button....' + this.nextSibling.innerHTML);
       });
     }
   }

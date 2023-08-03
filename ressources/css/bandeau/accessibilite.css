@@ -1,0 +1,13 @@
+.bandeau-accessibilite__action {
+  background-color: black;
+  color: white;
+  display: flex;
+  gap: 0;
+  justify-content: center;
+}
+
+.bandeau-accessibilite__action div {
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  padding: 10px 15px;
+}

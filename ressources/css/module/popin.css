@@ -1,0 +1,12 @@
+.popin {
+  position: relative;
+}
+
+.popin-close {
+  display: inline-block;
+  font-weight: 700;
+  padding: 5px;
+  margin: 5px 5px 0 calc(100% - 30px);
+  border: 1px solid black;
+  border-radius: 100%;
+}

@@ -1,5 +1,12 @@
 .popin {
-  position: relative;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 1000;
 }
 
 .popin-close {
@@ -9,4 +16,10 @@
   margin: 5px 5px 0 calc(100% - 30px);
   border: 1px solid black;
   border-radius: 100%;
+}
+
+.popin-title {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: 700;
 }

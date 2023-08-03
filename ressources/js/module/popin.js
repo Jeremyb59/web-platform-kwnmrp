@@ -10,6 +10,8 @@ export class Popin {
 
     for(const element of listePopin) {
       element.addEventListener('click', function() {
+        document.querySelector('#popin-title').innerHTML = this.nextSibling.getAttribute('popin-title');
+        
         document.querySelector('#popin-content').innerHTML = this.nextSibling.innerHTML;
 
         document.querySelector('#popin').classList.remove('display-none');
